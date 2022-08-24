@@ -12,13 +12,8 @@ function changeBackground() {
 	colorText.innerHTML = colorString;
 
 	body.style.background = colorString;
-
-	console.log(colorString);
 }
 
 function randomRgb() {
 	return Math.floor(Math.random() * 256);
 }
-
-console.log(colorText);
-console.log(change);
