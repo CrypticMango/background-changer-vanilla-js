@@ -1,8 +1,8 @@
 const change = document.getElementById("color-button");
-const color = document.getElementById("color-text");
+const colorText = document.getElementById("color-text");
 const body = document.body;
 
-change.addEventListener("click", changeBackground);
+console.log(colorText);
 
 function changeBackground() {
 	const color1 = randomRbg();
