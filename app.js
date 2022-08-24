@@ -2,8 +2,6 @@ const change = document.getElementById("color-button");
 const colorText = document.getElementById("color-text");
 const body = document.body;
 
-console.log(colorText);
-
 function changeBackground() {
 	const color1 = randomRbg();
 	const color2 = randomRbg();
@@ -17,3 +15,6 @@ function changeBackground() {
 function randomRbg() {
 	return Math.floor(Math.random() * 256);
 }
+
+console.log(colorText);
+console.log(change);
