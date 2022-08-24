@@ -9,6 +9,10 @@ function changeBackground() {
 
 	const colorString = `rgb(${color1}, ${color2}, ${color3})`;
 
+	colorText.innerHTML = colorString;
+
+	body.style.background = colorString;
+
 	console.log(colorString);
 }
 
